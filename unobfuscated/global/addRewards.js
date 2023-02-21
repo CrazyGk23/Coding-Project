@@ -11,7 +11,7 @@ j.remove();
             tokenadder.get("https://play.blooket.com/api/users/me").then(a => {
                 tokenadder.put("https://play.blooket.com/api/users/add-rewards", {
           name: a.data.name,
-          addedTokens: 500,
+          addedTokens: 5000,
           addedXp: 300
         })});
        if (state.xpAvailable === undefined) {
